@@ -1,0 +1,27 @@
+node{
+
+	stage('B	uild')
+
+	{
+
+		echo "Building the projct..."	
+
+	}
+
+	stage('Test')
+
+	{
+
+		echo "Testing	 the project...."
+
+	}
+
+	stage('Deploy')
+
+	{
+
+		echo "Deploying the project..."
+
+	}
+
+}
