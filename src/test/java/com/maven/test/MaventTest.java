@@ -12,6 +12,7 @@ public class MaventTest {
 	@Test
 	public void firstTest() {
 		System.out.println("This is our first Test");
+		 System.setProperty("webdriver.gecko.driver", "/home/ubuntu/libs/geckodriver");
 		driver = new FirefoxDriver();
 		
 	}
