@@ -17,10 +17,10 @@ public class MaventTest {
 		
 	}
 	
-	@AfterTest
+	/*@AfterTest
 	public void closeBrowser() {
 		driver.close();
-	}
+	}*/
 	
 	
 	
