@@ -19,7 +19,7 @@ public class MaventTest {
 	
 	@AfterTest
 	public void closeBrowser() {
-		driver.quit();
+		driver.close();
 	}
 	
 	
