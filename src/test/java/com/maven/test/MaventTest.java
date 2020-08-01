@@ -11,7 +11,7 @@ public class MaventTest {
 	WebDriver driver;
 	@Test
 	public void firstTest() {
-		
+		System.out.println("This is our first Test");
 		driver = new FirefoxDriver();
 		
 	}
